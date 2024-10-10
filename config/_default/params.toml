@@ -5,7 +5,7 @@ images = ["cover.png"]
 
 # Add-ons
 [add_ons]
-plausibleDomain = "cozycoder.dev"
+plausibleDomain = "cozycoder.app"
 
 # mainSections
 mainSections = ["docs"]
@@ -79,12 +79,12 @@ imageList = true     # true (default) or false
 imageSingle = true   # true (default) or false
 
 # Repository
-editPage = true                                     # false (default) or true
-lastMod = true                                      # false (default) or true
-repoHost = "GitHub"                                 # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-docsRepo = "https://github.com/jehrhardt/cozycoder"
-docsRepoBranch = "main"                             # main (default), master, or <branch name>
-docsRepoSubPath = "docs"                            # "" (none, default) or <sub path>
+editPage = true                                       # false (default) or true
+lastMod = true                                        # false (default) or true
+repoHost = "GitHub"                                   # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
+docsRepo = "https://github.com/cozycoder-app/website"
+docsRepoBranch = "main"                               # main (default), master, or <branch name>
+docsRepoSubPath = "docs"                              # "" (none, default) or <sub path>
 
 # SCSS colors
 # backGround = "yellowgreen"
