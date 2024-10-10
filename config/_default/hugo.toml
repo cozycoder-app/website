@@ -1,5 +1,5 @@
 title = "Cozy Coder"
-baseurl = "https://cozycoder.dev"
+baseurl = "https://cozycoder.app"
 canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
