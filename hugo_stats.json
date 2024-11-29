@@ -215,6 +215,7 @@
       "submitted",
       "tags",
       "taxonomy",
+      "term",
       "text-body",
       "text-body-secondary",
       "text-center",
@@ -235,8 +236,13 @@
     "ids": [
       "TableOfContents",
       "buttonColorMode",
+      "commercial-open-source",
+      "designed-for-your-laptop-not-the-cloud",
       "doks-docs-nav",
+      "follow-the-development",
       "further-reading",
+      "giving-developers-more-control",
+      "giving-the-developers-more-control",
       "offcanvasNavMain",
       "offcanvasNavMainLabel",
       "offcanvasNavSection",
@@ -249,7 +255,8 @@
       "searchToggleDesktop",
       "searchToggleMobile",
       "socialMenu",
-      "toc"
+      "toc",
+      "whats-wrong-with-ai-tools"
     ]
   }
 }
