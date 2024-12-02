@@ -37,7 +37,7 @@ But why? Why can't you just fork the previous chat at some point to reuse some p
 
 ## Giving Developers more Control
 
-The obvious problem with chat is that everyone is just treating it as chat between a human and a bot. But that's not true. Each time you interact with Copilot or other LLMs the full conversation is send to the LLM as a context. There is no reason, why this context couldn't be treated like a Git history instead.
+The obvious problem with chat is that everyone is just treating it as chat between a human and a bot. But that's not true. Each time you interact with Copilot, or other LLMs, the full conversation is sent to the LLM as context. There is no reason why this context couldn't be treated like a Git commit history instead.
 
 Let's imagine a tool that gives developers more control and go through the above example:
 You start a conversation with a LLM to generate you new project. Of course, it will also run the generated code on your local machine automatically to prove it is working. Once your initial project setup is done, a pull request is provided that can be reviewed by your colleagues. Of course, your colleagues will have access to chat, which is linked in the pull request. Next time one of your colleagues wants to setup another project, they just fork your conversation at some point and continue a new conversation from that point on instead of talking to the LLM from scratch. Since new projects are created frequently in your company, someone is taking your conversation and introduces some parameters to it to use it as a template. Now you have a reusable conversation template that you can simply trigger from your terminal, provide few details (e.g. a project name) and get the code generated.
@@ -46,25 +46,25 @@ Of course, not every company creates so many new projects. But this is just one 
 
 ## Designed for your Laptop not the Cloud
 
-The above example gives a rough idea of what you as a software developer should be able to do with Cozy Coder. But to make the tool really good, it obviously must run on your laptop.
+The above example gives a rough idea of what you as a software developer should be able to do with Cozy Coder. But in order to make the tool really good - it obviously must run on your laptop!
 
-Many developers use CLIs and they can easily be used within scripts to automate tasks. As Cozy Coder is designed for developers, it must provide a proper CLI. But also the access to the file system is important to directly modify local files, if you want to.
+Many developers use CLIs which can easily be used within scripts to automate tasks. As Cozy Coder is designed for developers, it must provide a proper CLI. But also the access to the file system is important to directly modify local files, if you want to.
 
 Even more important are the constraints of large enterprises. In the last decade, I haven't worked for a single large company here in Europe that did not host their own Github Enterprise or Gitlab or similar tool. The code is capitalized and must to be kept secret. Hosting the code on a self-hosted Github Enterprise that is only accessible from your VPN is how you achieve this. So why should one of those companies start sending code to some LLM hosted in the cloud? Everything that runs locally on your laptop is significantly easier to use within larger enterprises.
 
-Cozy Coder will of course not be limited to local LLMs, but they will always be the preferred choice and well supported. Ideally we will all together achieve the usage of local LLMs, where possible and only use the cloud based ones, where necessary.
+Cozy Coder will of course not be limited to local LLMs but they will always be the preferred choice and well supported. Ideally, we will all together achieve the usage of local LLMs, where possible and only use the cloud based ones, where necessary.
 
 Of course, Cozy Coder will also have a server side part. But it will be mainly for enabling sharing and collaboration as well backups of data.
 
 ## Commercial Open Source
 
-Cozy Coder is an open source project and I wouldn't develop it, if it wasn't. But with the end of zero interest rate policy, sponsoring as a strategy to fund an open source project has become more difficult.
+Cozy Coder is an open source project, and I wouldn't develop it if it wasn't. But with the end of zero interest rate policy, sponsoring as a strategy to fund an open source project has become more difficult.
 
-That's why the goal is to have a more sustainable financing strategy by building a for-profit business on top of the open source project. This will be achieved by following the open core approach. While Cozy Coder itself will be available under Apache-2.0 license and can be used for free, the server side code will be licensed under a Polyform non-commercial license. While it still allows personal or educational use and even code modification, the commercial use requires a paid license.
+That's why the goal is to have a more sustainable financing strategy by building a for-profit business on top of the open source project. This will be achieved by following the open core approach. While Cozy Coder itself will be available under Apache-2.0 license and can be used for free, the server side code will be licensed under a Polyform non-commercial license. Thus, it still allows personal or educational use and even code modification, the commercial use requires a paid license.
 
 ## Follow the development
 
-I am just starting with the development now, but if you are interested in the project, feel free to follow its progress or even contribute to it. Here are some options:
+I am just starting with the development now and if you are interested in the project, feel free to follow its progress or even contribute to it. Here are some options:
 
 - Youtube
 - Bluesky
