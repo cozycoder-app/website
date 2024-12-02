@@ -24,14 +24,16 @@ But this doesn't mean there is no value in AI for software development. The curr
 
 ## What's wrong with AI tools?
 
-Currently, the way how LLMs are used by developers is through a web based chat interface like claude.ai or through some IDE integration like Github Copilot. Some developers are even using IDEs or editors just because of their promises on AI integration like Coursor.
+Currently, the way how LLMs are used by developers is through a web based chat interface like claude.ai or through some IDE integration like Github Copilot. Some developers are even using IDEs or editors simply because of their promises on AI integration like Coursor.
 
-I also used Github Copilot in VS Code for a while. But then I switched Neovim and Copilot became less useful. So I canceled my Copilot subscription and stopped using it. I prefer to use an excellent editor without AI over picking my editor based on its AI capabilities. And in general I don't find AI autocompletion very useful. The main feature of Copilot I used, was the chat. Chat is probably the best way to interact with a LLM today.
+I also used Github Copilot in VS Code for a while but then I switched Neovim and Copilot became less useful. So I canceled my Copilot subscription and stopped using it. I prefer to use an excellent editor without AI over picking my editor based on its AI capabilities - and in general I don't find AI autocompletion very useful. The main feature of Copilot I used, was the chat. Chat is probably the best way to interact with a LLM today.
 
 But I am not very satisfied with the limited experience of chats. Let's take a simple example:
-You are setting up a new project - e.g. a microservice with an API in your enterprise environment. You start asking Copilot to add a HTTP server and an endpoint. You ask it for a database connection and some SQL to query the database. You get pretty far with it just by letting Copilot generate all the boilerplate code for you. Then you copy it to files and commit them. The next time, you wanna setup a new project, you start from scratch.
+You are setting up a new project - e.g. a microservice with an API in your enterprise environment. You start by asking Copilot to add a HTTP server and an endpoint. You then ask it for a database connection and some SQL to query the database. You get pretty far with it just by letting Copilot generate all the boilerplate code for you. Finally, you copy the result to files and commit them. 
 
-But why? Why can't you just fork the previous chat at some point to reuse some parts of the conversation to create another project? Why can't the LLM just take the generated code and create a pull request in your companies Github enterprise installation? Why can't you share the conversation with your colleagues, so they can fork it and reuse it as well?
+The next time, you wanna setup a new project, you start from scratch.
+
+But why? Why can't you just fork the previous chat at some point to reuse some parts of the conversation to create another project? Why can't the LLM just take the generated code and create a pull request in your company's Github enterprise installation? Why can't you share the conversation with your colleagues, so they can fork it and reuse it as well?
 
 ## Giving Developers more Control
 
